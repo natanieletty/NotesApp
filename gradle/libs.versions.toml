@@ -1,0 +1,75 @@
+[versions]
+agp = "8.4.0"
+kotlin = "2.0.0-RC3"
+ksp = "2.0.0-RC3-1.0.20"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+lifecycleRuntimeKtx = "2.8.0"
+activityCompose = "1.9.0"
+composeBom = "2024.05.00"
+hilt = "2.51.1"
+hilt-compose = "1.2.0"
+navigation = "2.8.0-beta01"
+richeditorCompose = "1.0.0-rc04"
+room = "2.6.1"
+googleCredentials = "1.2.2"
+googleId = "1.1.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3", version = "1.3.0-beta01" }
+
+hilt = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt-annotation = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
+hilt-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hilt-compose" }
+
+navigation = { module = "androidx.navigation:navigation-compose", version.ref = "navigation" }
+
+richeditor-compose = { module = "com.mohamedrejeb.richeditor:richeditor-compose", version.ref = "richeditorCompose" }
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+room-anotation = { module = "androidx.room:room-compiler", version.ref = "room" }
+room-coroutines = { module = "androidx.room:room-ktx", version.ref = "room" }
+
+firebase-bom = { module = "com.google.firebase:firebase-bom", version = "33.0.0" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-auth = { module = "com.google.firebase:firebase-auth" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore" }
+
+datastore = { module = "androidx.datastore:datastore-preferences", version = "1.1.1" }
+
+swipe = { module = "me.saket.swipe:swipe", version = "1.3.0" }
+
+google-service = { module = "com.google.android.gms:play-services-auth", version = "21.1.1" }
+google-id = { group = "com.google.android.libraries.identity.googleid", name = "googleid", version.ref = "googleId" }
+google-credentials-play = { module = "androidx.credentials:credentials-play-services-auth", version.ref = "googleCredentials" }
+google-credentials = { module = "androidx.credentials:credentials", version.ref = "googleCredentials" }
+
+kotlinx-serialization = {module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version = "1.6.3"}
+
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlinx-serialization = {id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin"}
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+gms = { id = "com.google.gms.google-services", version = "4.4.1" }
+
+
+

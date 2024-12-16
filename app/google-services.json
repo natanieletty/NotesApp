@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "901268756312",
+    "project_id": "notes-app-elkamali",
+    "storage_bucket": "notes-app-elkamali.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901268756312:android:e9e415a668c57ac6f3772d",
+        "android_client_info": {
+          "package_name": "ua.nuop.elkamali"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901268756312-engtrkl3f02a6pip4ab3h5dinuqh3ikg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ua.nuop.elkamali",
+            "certificate_hash": "d5b5f85f411cdcead81c5515305f7e0717d751e0"
+          }
+        },
+        {
+          "client_id": "901268756312-lqgjuhc5t8ln5jaqff03ljnu5hvnh13p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB4gFAVNtpuMzAA1xRLEqhY6qikHM86TY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901268756312-lqgjuhc5t8ln5jaqff03ljnu5hvnh13p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
