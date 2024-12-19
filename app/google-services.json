@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "901268756312",
-    "project_id": "notes-app-elkamali",
-    "storage_bucket": "notes-app-elkamali.appspot.com"
+    "project_id": "notes-app-bushniak",
+    "storage_bucket": "notes-app-bushniak.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:901268756312:android:e9e415a668c57ac6f3772d",
         "android_client_info": {
-          "package_name": "ua.nuop.elkamali"
+          "package_name": "ua.nuop.bushniak"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "901268756312-engtrkl3f02a6pip4ab3h5dinuqh3ikg.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "ua.nuop.elkamali",
+            "package_name": "ua.nuop.bushniak",
             "certificate_hash": "d5b5f85f411cdcead81c5515305f7e0717d751e0"
           }
         },
