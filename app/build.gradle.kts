@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-    namespace = "ua.nuop.elkamali"
+    namespace = "ua.nuop.bushniak"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "ua.nuop.elkamali"
+        applicationId = "ua.nuop.bushniak"
         minSdk = 25
         targetSdk = 34
         versionCode = 1
